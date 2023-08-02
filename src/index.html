@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Script -->
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Projek Mata Garuda</title>
+  </head>
+
+  <body>
+    <!-- Header Navbar  -->
+    <section id="header">
+      <nav id="header">
+        <div
+          class="container mx-auto flex flex-row items-center justify-between h-[72px]"
+        >
+          <div class="flex flex-row items-center gap-[16px]">
+            <img src="../public/images/logo.png" alt="Logo Magnet" />
+            <div class="border-l-2 border-white h-4 rounded-lg"></div>
+            <div class="flex gap-[15px]">
+              <a href="#" class="flex gap-[7px] relative group">
+                <img src="../public/icon/web.svg" alt="" />
+                <p>Network</p>
+                <div
+                  class="w-0 h-[3px] left-1/2 transform -translate-x-1/2 absolute bg-white mt-7 ml-[1px] rounded-lg group-hover:w-full transition-all duration-600"
+                ></div>
+              </a>
+              <a href="#" class="flex gap-[7px] relative group">
+                <img src="../public/icon/date.svg" alt="" />
+                <p>Agenda</p>
+                <div
+                  class="w-0 h-[3px] left-1/2 transform -translate-x-1/2 absolute bg-white mt-7 ml-[1px] rounded-lg group-hover:w-full transition-all duration-600"
+                ></div>
+              </a>
+            </div>
+          </div>
+
+          <div class="flex flex-row gap-[20px]">
+            <a href="#" class="border rounded-xl px-4 py-1.5">Daftar</a>
+            <a
+              href="#"
+              class="border rounded-xl px-4 py-1.5 bg-slate-50 text-[#EE1161] hover:bg-slate-200 transition duration-500"
+              >Masuk</a
+            >
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Main Navbar -->
+    <section id="navBar">
+      <nav id="mainNav" class="mb-8">
+        <div
+          class="container mx-auto flex flex-row items-center justify-between h-[72px]"
+        >
+          <div class="flex gap-[16px]">
+            <a href="#" class="flex items-center gap-[8px] p-[12px]"
+              >MG institute
+              <img src="../public/icon/arrow-right.svg" alt="" />
+            </a>
+            <a href="#" class="p-[12px]">MG Epicentrum</a>
+            <a href="#" class="p-[12px]">MG Talks</a>
+            <a href="#" class="p-[12px]">Komunitas</a>
+            <a href="#" class="p-[12px]">Pusat Bantuan</a>
+          </div>
+
+          <!-- Search Bar -->
+          <form>
+            <div class="flex relative">
+              <div
+                class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+              >
+                <img src="../public/icon/search.svg" alt="" />
+              </div>
+              <input
+                type="search"
+                id="defaultSearch"
+                class="block p-4 pl-10 border border-gray-300 rounded-full w-[411px] h-[40px] focus:outline-none"
+                placeholder="Search"
+                required
+                autocomplete="off"
+              />
+            </div>
+          </form>
+        </div>
+      </nav>
+    </section>
+
+    <!--News Update-->
+    <section class="updateNews">
+      <div class="container mx-auto mb-28">
+        <div>
+          <h1 class="font-bold text-xl">Update News</h1>
+        </div>
+
+        <div class="grid grid-cols-5 grid-rows-10 gap-4 my-9">
+          <div class="col-span-3 row-span-3">
+            <div class="rounded-xl overflow-hidden shadow-lg">
+              <img
+                class="w-full"
+                src="../public/images/card1.jpg"
+                alt="Sunset in the mountains"
+              />
+              <div class="px-6 py-4">
+                <div class="text-gray-400 mb-2"><h4>Kategori</h4></div>
+                <div class="font-semibold text-[20px] mb-2">
+                  Magnet Ada di Setiap Kota Indonesia
+                </div>
+                <p class="text-gray-700 text-base text-[16px]">
+                  Pengembangan wirausaha indonesia akan menyebar ke berbagai
+                  kota di Seluruh Indonesia
+                </p>
+                <div class="text-gray-400 mt-4 mb-3">
+                  <h3>25 Maret 2023</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-2 col-start-4">
+            <div class="container">
+              <div class="rounded-xl border shadow-xl relative">
+                <img
+                  src="../public/images/card2.png"
+                  class="float-left p-3 w-[152px] h-[168px]"
+                  alt=""
+                />
+                <div
+                  class="flex gap-2 text-[12px] font-inter text-gray-400 py-2"
+                >
+                  <h4 class="flex bg-gray-200 rounded-lg py-1 px-1 gap-2">
+                    Kategori
+                  </h4>
+                  <h4 class="flex gap-2 mt-1">25 Maret 2023</h4>
+                </div>
+                <div class="px-2">
+                  <h1 class="text-[20px] font-semibold">
+                    Kemenkop UKM meluncurkan Platform Magnet
+                  </h1>
+                  <p class="text-base my-3">
+                    Deputi Bidang Kewirausahaan Kemenkop UKM meluncurkan
+                    platform ekosistem wirausaha indonesia
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-2 col-start-4 row-start-2">
+            <div class="col-span-2 col-start-4">
+              <div class="container">
+                <div class="rounded-xl border shadow-xl relative">
+                  <img
+                    src="../public/images/card2.png"
+                    class="float-left p-3 w-[152px] h-[168px]"
+                    alt=""
+                  />
+                  <div
+                    class="flex gap-2 text-[12px] font-inter text-gray-400 py-2"
+                  >
+                    <h4 class="flex bg-gray-200 rounded-lg py-1 px-1 gap-2">
+                      Kategori
+                    </h4>
+                    <h4 class="flex gap-2 mt-1">25 Maret 2023</h4>
+                  </div>
+                  <div class="px-2">
+                    <h1 class="text-[20px] font-semibold">
+                      Kemenkop UKM meluncurkan Platform Magnet
+                    </h1>
+                    <p class="text-base my-3">
+                      Deputi Bidang Kewirausahaan Kemenkop UKM meluncurkan
+                      platform ekosistem wirausaha indonesia
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-2 col-start-4 row-start-3">
+            <div class="col-span-2 col-start-4">
+              <div class="container">
+                <div class="rounded-xl border shadow-xl relative">
+                  <img
+                    src="../public/images/card2.png"
+                    class="float-left p-3 w-[152px] h-[168px]"
+                    alt=""
+                  />
+                  <div
+                    class="flex gap-2 text-[12px] font-inter text-gray-400 py-2"
+                  >
+                    <h4 class="flex bg-gray-200 rounded-lg py-1 px-1 gap-2">
+                      Kategori
+                    </h4>
+                    <h4 class="flex gap-2 mt-1">25 Maret 2023</h4>
+                  </div>
+                  <div class="px-2">
+                    <h1 class="text-[20px] font-semibold">
+                      Kemenkop UKM meluncurkan Platform Magnet
+                    </h1>
+                    <p class="text-base my-3">
+                      Deputi Bidang Kewirausahaan Kemenkop UKM meluncurkan
+                      platform ekosistem wirausaha indonesia
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Latihan-->
+    <section id="latihan">
+      <div class="container mx-auto mb-20">
+        <div class="border rounded-lg shadow-lg p-10 relative">
+          <div
+            class="w-20 h-10 bg-pink-200 rounded-full flex absolute -top-6 left-1/2 -translate-x-1/2 cursor-pointer"
+          >
+            <a href="#" class="text m-auto">❌</a>
+          </div>
+          <img
+            src="../public/images/card1.jpg"
+            alt="image"
+            width="250"
+            class="float-left p-2 cursor-pointer"
+          />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
+            sequi ratione aperiam totam esse incidunt dolores dolorum commodi
+            nesciunt, dolor eos. Eligendi cupiditate quo nam ipsam eos voluptas
+            a rerum repellat odit nesciunt officia nulla libero, inventore
+            voluptatum doloribus reprehenderit quis assumenda! Magnam harum
+            inventore id neque alias ducimus eveniet? Lorem ipsum, dolor sit
+            amet consectetur adipisicing elit. Corrupti sequi ratione aperiam
+            totam esse incidunt dolores dolorum commodi nesciunt, dolor eos.
+            Eligendi cupiditate quo nam ipsam eos voluptas a rerum repellat odit
+            nesciunt officia nulla libero, inventore voluptatum doloribus
+            reprehenderit quis assumenda! Magnam harum inventore id neque alias
+            ducimus eveniet?
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="container columns-3 border rounded-lg shadow-lg p-10 mx-auto mb-20"
+      >
+        <img class="p-5" src="images/card1.jpg" alt="image" />
+        <img class="p-5" src="images/card1.jpg" alt="image" />
+        <img class="p-5" src="images/card1.jpg" alt="image" />
+        <img class="p-5" src="images/card1.jpg" alt="image" />
+        <img class="p-5" src="images/card1.jpg" alt="image" />
+        <img class="p-5" src="images/card1.jpg" alt="image" />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+      <footer id="footer">
+        <div class="container flex mx-auto justify-between items-center">
+          <div>
+            <p>Semua Hak Dilindungi Undang-Undang.</p>
+            <p>Dikelola oleh Mata Garuda.</p>
+          </div>
+
+          <div class="flex gap-[28px]">
+            <!-- Call Center -->
+            <a href="#">
+              <img src="../public/icon/phone.svg" alt="" />
+            </a>
+
+            <!-- Facebook -->
+            <a href="#">
+              <img src="../public/icon/facebook.svg" alt="" />
+            </a>
+
+            <!-- Instagram -->
+            <a href="#">
+              <img src="../public/icon/instagram.svg" alt="" />
+            </a>
+
+            <!-- Linkedin -->
+            <a href="#">
+              <img src="../public/icon/linkedin.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
